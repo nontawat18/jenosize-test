@@ -16,6 +16,7 @@ app.use(cors({
         "http://localhost:3000",
         "http://localhost:8080",
         "http://localhost:8081",
+        "https://jenosize-test-p16v.vercel.app"
     ],
     methods: 'GET, POST, PUT, DELETE, OPTIONS',
     credentials: true,
