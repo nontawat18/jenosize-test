@@ -1,4 +1,3 @@
-
 import * as React from "react";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
@@ -328,12 +327,12 @@ export default function Home() {
                       </Grid>
                     </Grid>
                     <IconButton
-                  aria-label="HomeIcon"
-                  className="btn-action"
-                  onClick={() => handleChangeOpen(false)}
-                >
-                  <KeyboardArrowUpIcon className="" />
-                </IconButton>
+                      aria-label="HomeIcon"
+                      className="btn-action"
+                      onClick={() => handleChangeOpen(false)}
+                    >
+                      <KeyboardArrowUpIcon className="" />
+                    </IconButton>
                   </TabPanel>
                   <TabPanel value="weekly">
                     <Grid container spacing={1} className="date-text">
@@ -504,12 +503,12 @@ export default function Home() {
                     </Grid>
 
                     <IconButton
-                  aria-label="HomeIcon"
-                  className="btn-action-week"
-                  onClick={() => handleChangeOpen(false)}
-                >
-                  <KeyboardArrowUpIcon className="" />
-                </IconButton>
+                      aria-label="HomeIcon"
+                      className="btn-action-week"
+                      onClick={() => handleChangeOpen(false)}
+                    >
+                      <KeyboardArrowUpIcon className="" />
+                    </IconButton>
                   </TabPanel>
                   <TabPanel value="monthly" className="my-4">
                     <strong> January 2024</strong>
@@ -996,6 +995,7 @@ export default function Home() {
                       <div>
                         {items.map((item) => (
                           <Box
+                            key={item}
                             sx={{
                               display: { xs: "flex", md: "flex" },
                             }}
@@ -1102,6 +1102,7 @@ export default function Home() {
                       <div>
                         {items.map((item) => (
                           <Box
+                            key={item}
                             sx={{
                               display: { xs: "flex", md: "flex" },
                             }}
@@ -1208,6 +1209,7 @@ export default function Home() {
                       <div>
                         {items.map((item) => (
                           <Box
+                            key={item}
                             sx={{
                               display: { xs: "flex", md: "flex" },
                             }}
@@ -1314,6 +1316,7 @@ export default function Home() {
                       <div>
                         {items.map((item) => (
                           <Box
+                            key={item}
                             sx={{
                               display: { xs: "flex", md: "flex" },
                             }}
@@ -1517,6 +1520,7 @@ export default function Home() {
                       <div>
                         {items.map((item) => (
                           <Box
+                            key={item}
                             sx={{
                               display: { xs: "flex", md: "flex" },
                             }}
@@ -1623,6 +1627,7 @@ export default function Home() {
                       <div>
                         {items.map((item) => (
                           <Box
+                            key={item}
                             sx={{
                               display: { xs: "flex", md: "flex" },
                             }}
@@ -1729,6 +1734,7 @@ export default function Home() {
                       <div>
                         {items.map((item) => (
                           <Box
+                            key={item}
                             sx={{
                               display: { xs: "flex", md: "flex" },
                             }}
@@ -1835,6 +1841,7 @@ export default function Home() {
                       <div>
                         {items.map((item) => (
                           <Box
+                            key={item}
                             sx={{
                               display: { xs: "flex", md: "flex" },
                             }}
@@ -2038,6 +2045,7 @@ export default function Home() {
                       <div>
                         {items.map((item) => (
                           <Box
+                            key={item}
                             sx={{
                               display: { xs: "flex", md: "flex" },
                             }}
@@ -2144,6 +2152,7 @@ export default function Home() {
                       <div>
                         {items.map((item) => (
                           <Box
+                            key={item}
                             sx={{
                               display: { xs: "flex", md: "flex" },
                             }}
@@ -2250,6 +2259,7 @@ export default function Home() {
                       <div>
                         {items.map((item) => (
                           <Box
+                            key={item}
                             sx={{
                               display: { xs: "flex", md: "flex" },
                             }}
@@ -2356,6 +2366,7 @@ export default function Home() {
                       <div>
                         {items.map((item) => (
                           <Box
+                            key={item}
                             sx={{
                               display: { xs: "flex", md: "flex" },
                             }}
