@@ -1,0 +1,361 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+    font-family: 'Prompt', 'sans-serif';
+}
+
+.date-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.appbar {
+    background-color: #325eff;
+    color: #ffffff;
+}
+
+.back-appbar {
+    min-height: 100px;
+    /* border-bottom: 1px solid #d2d2d2; */
+    padding-bottom: 5px;
+}
+
+.icon-color {
+    color: #ffffff;
+}
+
+.navigation {
+    color: #325eff;
+}
+
+.css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root.Mui-selected {
+    color: #325eff !important;
+}
+
+.css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, padding-top 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, padding-top 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    padding: 0px 12px;
+    min-width: 80px;
+    max-width: 168px;
+    color: #cec8c8 !important;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.sub-haeder {
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.botton-text {
+    text-transform: none;
+    font-weight: bold;
+    color: #c8c8c8;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.botton-text-active {
+    text-transform: none;
+    font-weight: bold;
+    color: #325eff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tab-text {
+    text-transform: none !important;
+}
+
+.tab-main {
+    color: #325eff !important;
+    font-weight: bold !important;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #4970ff !important;
+    font-weight: bold !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    position: absolute;
+    height: 4px;
+    bottom: 0;
+    width: 100%;
+    -webkit-transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    background-color: #4970ff;
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1.25;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    max-width: 360px;
+    min-width: 80px;
+    position: relative;
+    min-height: 48px;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding: 2px 6px;
+    overflow: hidden;
+    white-space: normal;
+    text-align: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: #e2dede;
+}
+
+.css-6s1xft-MuiGrid-root>.MuiGrid-item {
+    padding-left: 0px;
+}
+
+.chart-icon {
+    color: #4970ff;
+}
+
+.chart-icon-noactive {
+    color: #e7e2e2;
+}
+
+.card-icon {
+    margin-right: 5px;
+    color: #4970ff;
+}
+
+.card-summary {
+    padding: 16px 16px 36px 16px;
+    border: 1px solid #e2dede;
+}
+
+.read {
+    border-right: 1px solid #b5b5b5;
+}
+
+.card-title {
+    font-size: 40px;
+}
+
+.cars-subtitle {
+    color: #b5b5b5;
+}
+
+.card-namm {
+    color: #4970ff;
+}
+
+.bar-paper {
+    background-color: transparent;
+}
+
+.chip-icon {
+    border: 1px solid #4970ff;
+    background-color: transparent;
+    color: #4970ff;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.chip-detail {
+    border: 1px solid #4970ff;
+    background-color: transparent;
+    color: #4970ff;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.chip-icon-fill {
+    border: 1px solid #4970ff;
+    background-color: #4970ff;
+    color: #ffffff;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.css-ljcuss-MuiButtonBase-root-MuiChip-root:hover,
+.css-ljcuss-MuiButtonBase-root-MuiChip-root.Mui-focusVisible {
+    background-color: transparent !important;
+}
+
+.avatar-color {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.list-card {
+    border: 2px solid #e2dede;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.name-list {
+    margin-top: 6px;
+    border-right: 2px solid #e2dede;
+}
+
+.list-text {
+    color: #4970ff;
+}
+
+.text-content {
+    color: #e2dede;
+}
+
+.bar-detail {
+    background-color: rgb(219, 245, 255);
+}
+
+.date-text-month {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(219, 245, 255);
+    border-radius: 25px;
+}
+
+.view-all {
+    color: #4970ff;
+    padding-left: 25px;
+}
+
+.gift-detail {
+    border-bottom: 1px solid #b5b5b5;
+}
+
+.textfield {
+    border-radius: 25px !important;
+    border: 1px solid #b5b5b5;
+}
+
+.btn-action {
+    border: 1px solid #b5b5b5;
+    background-color: #ffffff;
+    position: absolute;
+    top: 32%;
+    left: 46%;
+}
+
+.btn-action-week {
+    border: 1px solid #b5b5b5;
+    background-color: #ffffff;
+    position: absolute;
+    top: 33%;
+    left: 46%;
+}
+
+.btn-action-month {
+    border: 1px solid #b5b5b5;
+    background-color: #ffffff;
+    position: absolute;
+    top: 28%;
+    left: 46%;
+}
+
+.btn-action-down {
+    border: 1px solid #b5b5b5;
+    background-color: #ffffff;
+    position: absolute;
+    top: 24%;
+    left: 46%;
+}
+
+.css-13xfq8m-MuiTabPanel-root {
+    padding: 2px !important;
+}
+
+.avatar-day-pass {
+    background-color: transparent;
+    color: #000000;
+}
+
+.avatar-day-now {
+    background-color: #4970ff;
+    color: #ffffff;
+}
+
+.avatar-select {
+    background-color: transparent;
+    color: #4970ff;
+    border: 1px solid #4970ff;
+}
+
+.avatar-far {
+    background-color: transparent;
+    color: #b5b5b5;
+}
